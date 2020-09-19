@@ -1,6 +1,6 @@
-docker build -t anoopkr05/multi-client:latest -t anoopkr05/multi-client:$SHA ./client/Dockerfile ./client
-docker build -t anoopkr05/multi-server:latest -t anoopkr05/multi-server:$SHA ./server/Dockerfile ./server
-docker build -t anoopkr05/multi-worker:latest -t anoopkr05/multi-worker:$SHA ./worker/Dockerfile ./worker
+docker build -t anoopkr05/multi-client:latest -t anoopkr05/multi-client:$SHA ./client
+docker build -t anoopkr05/multi-server:latest -t anoopkr05/multi-server:$SHA ./server
+docker build -t anoopkr05/multi-worker:latest -t anoopkr05/multi-worker:$SHA ./worker
 docker push anoopkr05/multi-client:latest
 docker push anoopkr05/multi-server:latest
 docker push anoopkr05/multi-worker:latest
