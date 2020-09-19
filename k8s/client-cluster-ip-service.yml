@@ -5,7 +5,7 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-    - port: 3050 #for other pods to connect 
+    - port: 3000 #for other pods to connect 
       targetPort: 3000
   selector:
     component: web
